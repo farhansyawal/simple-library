@@ -33,12 +33,15 @@ Aplikasi bernama Simple Library dengan fitur CRUD (Create, Read, Update, Delete)
    cd simple-library
 
 2. Install dependency
+   ```bash
    composer install
 
 3. Copy file environment
+   ```bash
    cp .env.example .env
 
 4. Konfigurasi database di .env
+   ```bash
    DB_CONNECTION=mysql
    DB_HOST=127.0.0.1
    DB_PORT=3306
@@ -47,12 +50,15 @@ Aplikasi bernama Simple Library dengan fitur CRUD (Create, Read, Update, Delete)
    DB_PASSWORD=
 
 5. Generate key Laravel
+   ```bash
    php artisan key:generate
 
 6. Jalankan migration & seeder
+   ```bash
    php artisan migrate --seed
 
 7. Jalankan server
+   ```bash
    php artisan serve
-
+   
    Akses di browser: http://127.0.0.1:8000/books
