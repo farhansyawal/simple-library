@@ -29,7 +29,7 @@ Aplikasi bernama Simple Library dengan fitur CRUD (Create, Read, Update, Delete)
 
 1. Clone repository
    ```bash
-   git clone https://github.com/aan3481/simple-library.git
+   git clone https://github.com/farhansyawal/simple-library.git
    cd simple-library
 
 2. Install dependency
