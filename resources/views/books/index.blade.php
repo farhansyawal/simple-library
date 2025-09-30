@@ -11,6 +11,7 @@
 <body>
     <div class="container mt-5">
         <h2 class="mb-4">Daftar Buku</h2>
+        <a class="btn btn-sm btn-primary" href="{{ route('books.create') }}">Tambah Buku</a>
         <table id="myTable" class="table table-bordered table-striped">
             <thead>
                 <tr>
