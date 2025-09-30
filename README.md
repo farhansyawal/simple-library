@@ -45,7 +45,7 @@ Aplikasi bernama Simple Library dengan fitur CRUD (Create, Read, Update, Delete)
    DB_CONNECTION=mysql
    DB_HOST=127.0.0.1
    DB_PORT=3306
-   DB_DATABASE=simple_library
+   DB_DATABASE=simple-library
    DB_USERNAME=root
    DB_PASSWORD=
 
